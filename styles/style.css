@@ -1,8 +1,8 @@
-.body{
+.body {
   font-family: 'Inter', sans-serif;
  }
  
- h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
+ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
   margin: 0;
   padding: 0;
  }
@@ -16,7 +16,7 @@
   align-items:flex-start;
   position: absolute;
   }
-.cover{
+.cover {
   background-image: url(../images/cover.svg);
   background-repeat: no-repeat;
   background-size: 95% auto;
@@ -25,7 +25,7 @@
   height: 221px;
   padding: 7px 0px 30px 20px;
 }
-.cover__title{
+.cover__title {
   display: block;
   font-family: 'EB Garamod',serif;
   color: white;
@@ -33,10 +33,10 @@
   font-size: 72px;
   line-height:72px;
 }
-.text__center{
+.text__center {
   text-align: center;
 }
-.text__right{
+.text__right {
   text-align: end;
 }
 .content-section {
@@ -45,28 +45,29 @@
     margin: auto;
     position: relative; 
   }
-  .content-section_theme_dark{
+  .content-section_theme_dark {
     background-color: black;
     color: white;
+  
   }
-  .content-section_theme_bright{
+  .content-section_theme_bright {
     background-color: #FEE42A;
     color:black;
     width: 360px;
   }
-   .header__logo{
+   .header__logo {
     width: 360px;
-   }
-   .header__logo-image{
+  }
+   .header__logo-image {
     height: 15px;
     width: 78px;
-    border-top: 24px; 
-   }
-   .header__menu{
+    border-top: 24px;
+  }
+   .header__menu {
     height: 84px;
     width: 75px; 
-   }
-   .header__menu-list{
+  }
+   .header__menu-list {
     list-style-type: none;
     font-family: 'Inter',sans-serif;
     font-weight: normal;    
@@ -74,28 +75,28 @@
     flex-direction: column;
     justify-content:space-between;
     gap: 12px;
-   }
-   .header__menu-item{
+  }
+   .header__menu-item {
     color: white;
     text-decoration:underline;
     list-style-type: none;
     font-family: 'Inter',sans-serif;
     font-weight: normal;     
-   }
-   .header__menu-item_active{
+  }
+   .header__menu-item_active {
     width: 360px;
-   }
+  }
    .header__menu-link {
     color: white;
     padding-top: 1%;
     font-family: 'Inter',sans-serif;
     font-weight: normal;    
-   }
-  .intro{
+  }
+  .intro {
     padding: 35px 0px 38px 20px;
     width: 360px;
   }
-  .intro__heading{
+  .intro__heading {
     font-family: 'Inter',sans-serif;
     font-weight: normal;
 
@@ -104,24 +105,23 @@
     flex-direction: row;
     color: #CCCCCC;
   }
-  .intro__title{
+  .intro__title {
     display:block;
     font-family: 'Inter',sans-serif;
     color: #CCCCCC;
     font-weight: 400;
     font-size: 16px;
-    font-weight: 400;
     font-style: normal;
     line-height: 120%;
     width: 320px;
     height: 38px;
     white-space: nowrap;  
   }
-  .intro__date{
+  .intro__date {
     display: block;
     white-space: nowrap;
   }
-  .intro__main-text{
+  .intro__main-text {
   font-family: 'Inter',sans-serif;
   font-size: 16px;
   font-weight: normal;
@@ -129,7 +129,7 @@
   padding-right:20px ;
   color: #CCCCCC;
   }
-  .reasons{
+  .reasons {
     width: 360px;
     height: auto;
     padding-left: 20px;
@@ -138,7 +138,7 @@
     flex-direction: column;
     gap: 20px;
   }
- .content-section__subtitle{
+ .content-section__subtitle {
   padding-top: 40px;
   width: 320px;
   height: 63px;
@@ -147,8 +147,8 @@
   font-weight: 500;
   font-size: 28px;
   line-height: 115%;
- }
- .reasons__accent-span{
+}
+ .reasons__accent-span {
  font-family: 'Inter',sans-serif;
  font-style: normal;
  font-weight: 400;
@@ -157,13 +157,13 @@
  flex:none;
  order: 1;
  flex-grow: 0;
- }
- .reasons__text-right{
+}
+ .reasons__text-right {
   text-align: right;
   width: 320px;
   height: 31.5px;
- }
- .content-section__list{
+}
+ .content-section__list {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 100;
@@ -179,10 +179,10 @@
   margin-bottom: 17px;
   padding-left: 20px;
  }
- .content-section__list-accent{
+ .content-section__list-accent {
  font-weight: bold;
  }
-  .how-to{
+  .how-to {
     padding: 32px 22px 122px 20px;
     width: 360px;
     height: 1829px;
@@ -192,7 +192,7 @@
     gap: 32px;
     position: relative;
   }
-  .how-to__title{
+  .how-to__title {
     width: 320px;
     font-family: 'EB Garamond', sans-serif;
     font-style: normal;
@@ -201,7 +201,7 @@
     font-weight: 500;
 
   }
-  .content-section__subtitle-how-to{
+  .content-section__subtitle-how-to {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -213,62 +213,62 @@
     order: 1;
     flex-grow: 0; 
   }
-  .card{
+  .card {
     padding: 20px;
     border-radius: 30px;
   }
-  .card_theme_dark-up{
+  .card_theme_dark-up {
     background: #343434;
     height: 495px;
     color: white;
     gap: 8;
   }
-  .card_theme_dark-down{
+  .card_theme_dark-down {
     background: #343434;
     height: 559px;
   }
-  .card_theme_bright{
+  .card_theme_bright {
     background: #FEE42A;
     color: black;
     height: 368px;
   }
-  .card__author-photo{
+  .card__author-photo {
     width: 100px;
     height: auto;
     border-radius: 50px;
   }
-  .card__author-name{
+  .card__author-name {
     width: 163px;
     height: 20px;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
   }
-  .card__title{
+  .card__title {
     font-family: 'EB Garamond',sans-serif;
     font-weight: medium;
     font-size: 22px;
     padding-top: 8px;
   }
-  .card__text{
+  .card__text {
     font-family: 'Inter',sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 21.6px;
     padding-top: 8px;
   }
-  .span{
+  .span {
     width: 339px;
     display:block;
   }
-  .title{
+  .title {
     width: 360px;
     background-image: url(../images/title.svg);
   }
-  .cards-list{
+  .cards-list {
     display: flex;
     flex-direction: column;
   }
-  .footer{
+  .footer {
   margin-bottom: 60px;
    margin: auto;
    width: 360px;
@@ -282,7 +282,7 @@
    padding: 20px;
    border-top: 1px solid #FEE42A;
   }
-  .footer__copy{
+  .footer__copy {
   font-family: 'Inter',sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -290,7 +290,7 @@
   line-height: 135%;
   color: white;
   }
-  .footer__links{
+  .footer__links {
     color: white;
     font-family: 'Inter',sans-serif;
     font-size: 14px;
